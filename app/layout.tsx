@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={cn(familjen.className, "flex flex-col gap-12 min-h-screen w-full max-w-xl min-w-[425px] mx-auto px-8 py-12")}>
+      <body className={cn(familjen.className, "flex flex-col gap-12 min-h-screen w-full max-w-xl mx-auto px-8 py-12")}>
         <main className="flex-1 flex flex-col gap-12">{children}</main>
         <Footer />
       </body>
