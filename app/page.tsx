@@ -18,7 +18,7 @@ export default function Page() {
     <>
       <section className="flex flex-col gap-1">
         <p className="text-xl font-medium">Hello there! 👋</p>
-        <p className="opacity-50 text-lg">I{"'"}m Rico Sanjaya, I craft websites that are visually striking and functionally seamless. I also develop digital experiences that are intuitive and user-centric.</p>
+        <p className="opacity-50 sm:text-lg">I{"'"}m Rico Sanjaya, I craft websites that are visually striking and functionally seamless. I also develop digital experiences that are intuitive and user-centric.</p>
       </section>
       <Section label="projects">
         <div className="flex flex-col gap-4 group">
@@ -28,7 +28,7 @@ export default function Page() {
         </div>
       </Section>
       <Section label="journal">
-        <p className="opacity-50">There is no journal at the moment...</p>
+        <p className="opacity-50 text-sm">There is no journal at the moment...</p>
       </Section>
     </>
   );
